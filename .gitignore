@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+
+checkpoints/
+reports/
+data/raw/
+data/processed/
+
+submission/model.tflite
+submission/norm_stats.npz
+*.keras
+*.npy
+
+codex_prompts/

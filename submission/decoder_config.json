@@ -1,0 +1,8 @@
+{
+  "heatmap_threshold": 0.05,
+  "nms_size": 3,
+  "selected_on": "validation_f1",
+  "validation_f1": 0.6899128268991284,
+  "validation_precision": 0.826865671641791,
+  "validation_recall": 0.5918803418803419
+}

@@ -7,9 +7,15 @@ reports/
 data/raw/
 data/processed/
 
-submission/model.tflite
-submission/norm_stats.npz
+# Submission artifacts must be committed for the final project delivery.
+# Keep large training artifacts ignored, but allow the deployable package.
+
+# Local evaluator outputs.
+evaluation/example/my_output*.jsonl
+evaluation/example/input_smoke_*.npy
 *.keras
 *.npy
 
 codex_prompts/
+
+desktop.ini

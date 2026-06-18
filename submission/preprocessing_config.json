@@ -1,0 +1,27 @@
+{
+  "seq_len": 16,
+  "frame_stride": 16,
+  "selected_channels": [
+    0,
+    4,
+    7,
+    11,
+    12,
+    15
+  ],
+  "use_log": true,
+  "declutter_mode": "ema",
+  "ema_alpha": 0.98,
+  "use_mag": false,
+  "use_decluttered_mag": true,
+  "use_motion_mag": true,
+  "use_phase_diff": true,
+  "use_local_variance": true,
+  "variance_window": 9,
+  "bin_start": 5,
+  "bin_end": 60,
+  "room_x": 4.8,
+  "room_y": 7.2,
+  "max_people": 4,
+  "normalization_eps": 1e-06
+}
